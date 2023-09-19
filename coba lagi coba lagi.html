@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/id/2/2d/Undip.png" alt="UNDIP">
+            <h1>Information</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about" onclick="toggleSection('about')">About Me</a></li>
+                <li><a href="#skills" onclick="toggleSection('skills')">Skills</a></li>
+                <li><a href="#experience" onclick="toggleSection('experience')">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="cv-container">
+        <div class="header">
+            <img class="profile-photo" src="https://cdn.discordapp.com/attachments/876080849920081940/1153577796975734824/IMG_1369.JPG" alt="Profile Photo">
+            <div class="Nama">ANDI MUHAMMAD APRIZAL FAUZAN</div>
+            <div class="job-title">Mahasiswa</div>
+        </div>
+        <div class="section" id="about">
+            <div class="section-title" onclick="toggleSection('about')">About Me</div>
+            <div class="section-content">
+                <p>Hello! I'm Andi, a passionate individual with a knack for gaming analysis, creative design, and video editing. I was born in Tangerang on April 27, 2004, and I currently reside at Jl. Banjarsari Raya No.51. I believe in the motto, "Nobody's life is perfect, so keep trying."</p>
+            </div>
+        </div>
+        <div class="section" id="skills">
+            <div class="section-title" onclick="toggleSection('skills')">Skills</div>
+            <div class="section-content">
+                <div class="skills">
+                    <div class="skill">Gaming analysis</div>
+                    <div class="skill">Canva</div>
+                    <div class="skill">Adobe Premiere Pro</div>
+                    <div class="skill">Adobe Creative Suite</div>
+                    <div class="skill highlight">Leadership</div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="experience">
+            <div class="section-title" onclick="toggleSection('experience')">Experience</div>
+            <div class="section-content">
+                <p><strong>Chairman of the 2021 force</strong> - Leviatheta (2021 - Present)</p>
+                <p>As the chairman, I've been responsible for fostering communication and teamwork within the team.</p>
+                <p><strong>Coach</strong> - Undip Ladies Team (2022 - Present)</p>
+                <p>As a coach, I've focused on building strategies, improving communication, and fostering excellent teamwork both within and outside the team.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="contact">
+        <div class="footer-wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Addiction</h3>
+                    <p>Music, Psychology, Games, and Also u!!!</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About me</h3>
+                    <p>There's no need to know anymore</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>+62-815-1736-7007</p>
+                </div>
+                <div class="footer-section social-section">
+                    <h3>Social</h3>
+                    <!-- Add your social media links here -->
+                    <p><a href="https://www.instagram.com/andiaprizalfauzan_" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></p>
+                    <p><a href="https://www.tiktok.com/@orangstresmulu" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
